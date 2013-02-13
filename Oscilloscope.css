@@ -62,8 +62,8 @@ body {
 	text-align: left;
 	width: 20%;
 	min-width: 160px;
-	position: relative;
-	float: left;
+	position: fixed;
+	top: 0px;
 	z-index: 3;
 }
 
@@ -73,16 +73,16 @@ body {
 
 
 #sidebar .links h1 {
-	font-size: 14pt;
+	font-size: 18pt;
 }
 
 #sidebar .links .link {
-	font-size: 10pt;
+	font-size: 14pt;
 	margin: 8px 0 0 8px;
 }
 
 #sidebar .links .link h1{
-	font-size: 10pt;
+	font-size: 14pt;
 	margin: 0;
 }
 
@@ -90,14 +90,14 @@ body {
 	color: #88b5ae;
 	text-shadow: #c1fff4 0 0 50px;
 	text-decoration: none;
-	font-size: 8pt;
+	font-size: 12pt;
 }
 
 #sidebar .links .link a.active{
 	color: #c1fff4;
 	text-shadow: #fff 0 0 100px;
 	text-decoration: none;
-	font-size: 8pt;
+	font-size: 12pt;
 }
 
 #sidebar .links .link a.active:hover {
@@ -115,52 +115,134 @@ body {
 	z-index: 3;
 }
 
-#main #header {
-	margin: 12px 0 24px;
-}
 
-#main #header h1 {
-	font-size: 36pt;
-	margin: 0;
-}
-
-#main #header h2 {
-	font-size: 18pt;
-	margin: 0;
-}
-
-#main #content {
-	font-size: 12pt;
-	margin: 0;
-}
-
-
-#main #content p{
-	padding-left:  10px;
-	padding-right: 10px;
-	text-align: justify;
-}
-
-#main #content ul{
-	text-align: justify;
-}
-
-#main #content a{
+#main a {
 	color: #c1fff4;
 	text-shadow: #fff 0 0 100px;
+	text-decoration: none;
 }
 
-#main #content a:hover {
+#main a:hover {
 	color: #fff;
 	text-shadow: #fff 0 0 200px;
+	text-decoration: none;
+}
+
+#main h1 {
+	font-size: 36pt;
+	text-align: center;
+	margin: 12px 0 24px 0;
+	clear: both;
+}
+
+#main #header img {
+	height: 108pt;
+	vertical-align:middle;
+}
+
+#main h2 {
+	font-size: 28pt;
+	text-align: left;
+	margin: 40px 0 40px 0;
+	clear: both;
+}
+
+#main h3 {
+	font-size: 32pt;
+	text-align: center;
+	margin: 80px 0 10px 0;
+	clear: both;
+}
+
+#main .projectInfo {
+        height: 240px;
+	margin: 10px 0 30px 0;
+	clear: both;
+}
+
+#main .projectImage {
+	width: 40%;
+	float: right;
+}
+
+#main .projectImage img {
+	height: 240px;
+	float: left;
+}
+
+#main .projectLinks {
+	width: 60%;
+	float: right;
+}
+
+#main .projectlinks ul {
+	margin: 0 20% 0 0;
+	float: right;
+	text-align: left;
+}
+
+#main  li.homeLink {
+        list-style-type: none;
+        background: url(home-32.png) no-repeat center left;
+	height: 40px;
+	margin-left: 20px;
+	padding-left: 50px;
+	font-size: 32px;
+} 
+
+#main  li.feedLink {
+        list-style-type: none;
+        background: url(feed-32.png) no-repeat center left;
+	height: 40px;
+	margin-left: 20px;
+	padding-left: 50px;
+	font-size: 32px;
+} 
+
+#main  li.githubLink {
+        list-style-type: none;
+        background: url(blacktocat-32.png) no-repeat center left;
+	height: 40px;
+	margin-left: 20px;
+	padding-left: 50px;
+	font-size: 32px;
+} 
+
+#main  li.docLink {
+        list-style-type: none;
+        background: url(doc-32.png) no-repeat center left;
+	height: 40px;
+	padding-left: 70px;
+	font-size: 32px;
+} 
+
+#main .projectDescription {
+	margin: 30px 20% 10px 20%;
+	clear: both;
+}
+
+#main .projectDescription p {
+	font-size: 18pt;
+	text-align: left;
+}
+
+#main .projectDescription ul {
+	font-size: 18pt;
+	text-align: left;
+}
+
+#main .projectDescription li {
+	font-size: 18pt;
+	text-align: left;
 }
 
 
 
 
-#main #content .video{
-	margin: 12px 0;
-}
+
+
+
+
 
 
 

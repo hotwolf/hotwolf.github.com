@@ -1,8 +1,8 @@
 <html>
 <head>
-<title>Mini-BDM-Pod - {{ page.title }}</title>
+<title>hotwolf - {{ page.title }}</title>
 <link href="{{ site.url }}/Oscilloscope.css"  rel="stylesheet" type="text/css" />
-<link href="{{ site.url }}/Mini-BDM-Pod.xml" rel="alternate"  type="application/atom+xml" title="Mini-BDM-Pod" />
+<link href="https://github.com/hotwolf.atom" rel="alternate"  type="application/atom+xml" title="hotwolf's Activity" />
 <link href="{{ site.url }}/favicon.ico"       rel="shortcut icon" />
 </head>
 <body>
@@ -14,19 +14,11 @@
 
 <div id="sidebar">
 
-{% include ProjectLinks.html %}
-
-{% include RelatedProjects.html %} 
-
-{% include ListOfPosts.html %} 
+{% include ProjectIndex.html %}
 
 </div><!--<div id="sidebar">-->
 
 <div id="main">
-
-<div id="header">
-<h1>{{ page.title }}</h1>
-</div><!--<div id="header">-->
 
 <div id="content">
 {{ content }}
