@@ -124,8 +124,13 @@ body {
 
 #main a:hover {
 	color: #fff;
-	text-shadow: #fff 0 0 200px;
+	text-shadow: #ffffff 0 0 100px;
 	text-decoration: none;
+}
+
+#main p {
+	font-size: 18pt;
+	text-align: center;
 }
 
 #main h1 {
