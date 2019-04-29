@@ -191,6 +191,7 @@ body {
         background: url(home-32.png) no-repeat center left;
 	height: 40px;
 	margin-left: 20px;
+	margin-right: -200px;
 	padding-left: 50px;
 	font-size: 32px;
 } 
@@ -200,6 +201,7 @@ body {
         background: url(feed-32.png) no-repeat center left;
 	height: 40px;
 	margin-left: 20px;
+	margin-right: -200px;
 	padding-left: 50px;
 	font-size: 32px;
 } 
@@ -209,6 +211,7 @@ body {
         background: url(blacktocat-32.png) no-repeat center left;
 	height: 40px;
 	margin-left: 20px;
+	margin-right: -200px;
 	padding-left: 50px;
 	font-size: 32px;
 } 
@@ -217,6 +220,7 @@ body {
         list-style-type: none;
         background: url(doc-32.png) no-repeat center left;
 	height: 40px;
+	margin-right: -200px;
 	padding-left: 70px;
 	font-size: 32px;
 } 
