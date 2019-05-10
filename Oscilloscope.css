@@ -172,11 +172,11 @@ body {
 
 #main .projectImage img {
         height: 240px;
-        float: left;
+        float: right;
 }
 
 #main .projectLinks {
-        float: right;
+        float: left;
 }
 
 #main .projectlinks ul {
