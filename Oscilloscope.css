@@ -46,7 +46,7 @@ body {
 
 #background3 {
         /* Background grid */
-        background: url(ScreenGrid.png) repeat fixed 0 0;
+        background: url(images/ScreenGrid.png) repeat fixed 0 0;
         width: 100%;
         min-width: 800px;
         height: 100%;
@@ -187,7 +187,7 @@ body {
 
 #main  li.homeLink {
         list-style-type: none;
-        background: url(home-32.png) no-repeat center left;
+        background: url(images/home-32.png) no-repeat center left;
         height: 40px;
         margin-left: 20px;
         padding-left: 50px;
@@ -196,7 +196,7 @@ body {
 
 #main  li.homeLink:hover {
         list-style-type: none;
-        background: url(home-hl-32.png) no-repeat center left;
+        background: url(images/home-hl-32.png) no-repeat center left;
         height: 40px;
         margin-left: 20px;
         padding-left: 50px;
@@ -205,7 +205,7 @@ body {
 
 #main  li.feedLink {
         list-style-type: none;
-        background: url(feed-32.png) no-repeat center left;
+        background: url(images/feed-32.png) no-repeat center left;
         height: 40px;
         margin-left: 20px;
         padding-left: 50px;
@@ -214,7 +214,7 @@ body {
 
 #main  li.feedLink:hover {
         list-style-type: none;
-        background: url(feed-hl-32.png) no-repeat center left;
+        background: url(images/feed-hl-32.png) no-repeat center left;
         height: 40px;
         margin-left: 20px;
         padding-left: 50px;
@@ -223,7 +223,7 @@ body {
 
 #main  li.githubLink {
         list-style-type: none;
-        background: url(blacktocat-32.png) no-repeat center left;
+        background: url(images/blacktocat-32.png) no-repeat center left;
         height: 40px;
         margin-left: 20px;
         padding-left: 50px;
@@ -232,7 +232,7 @@ body {
 
 #main  li.githubLink:hover {
         list-style-type: none;
-        background: url(blacktocat-hl-32.png) no-repeat center left;
+        background: url(images/blacktocat-hl-32.png) no-repeat center left;
         height: 40px;
         margin-left: 20px;
         padding-left: 50px;
@@ -241,7 +241,7 @@ body {
 
 #main  li.docLink {
         list-style-type: none;
-        background: url(doc-32.png) no-repeat center left;
+        background: url(images/doc-32.png) no-repeat center left;
         height: 40px;
         padding-left: 70px;
         font-size: 32px;
@@ -249,7 +249,7 @@ body {
 
 #main  li.docLink:hover {
         list-style-type: none;
-        background: url(doc-hl-32.png) no-repeat center left;
+        background: url(images/doc-hl-32.png) no-repeat center left;
         height: 40px;
         padding-left: 70px;
         font-size: 32px;
