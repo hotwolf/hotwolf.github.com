@@ -194,9 +194,27 @@ body {
         font-size: 32px;
 }
 
+#main  li.homeLink:hover {
+        list-style-type: none;
+        background: url(home-hl-32.png) no-repeat center left;
+        height: 40px;
+        margin-left: 20px;
+        padding-left: 50px;
+        font-size: 32px;
+}
+
 #main  li.feedLink {
         list-style-type: none;
         background: url(feed-32.png) no-repeat center left;
+        height: 40px;
+        margin-left: 20px;
+        padding-left: 50px;
+        font-size: 32px;
+}
+
+#main  li.feedLink:hover {
+        list-style-type: none;
+        background: url(feed-hl-32.png) no-repeat center left;
         height: 40px;
         margin-left: 20px;
         padding-left: 50px;
@@ -212,9 +230,26 @@ body {
         font-size: 32px;
 }
 
+#main  li.githubLink:hover {
+        list-style-type: none;
+        background: url(blacktocat-hl-32.png) no-repeat center left;
+        height: 40px;
+        margin-left: 20px;
+        padding-left: 50px;
+        font-size: 32px;
+}
+
 #main  li.docLink {
         list-style-type: none;
         background: url(doc-32.png) no-repeat center left;
+        height: 40px;
+        padding-left: 70px;
+        font-size: 32px;
+}
+
+#main  li.docLink:hover {
+        list-style-type: none;
+        background: url(doc-hl-32.png) no-repeat center left;
         height: 40px;
         padding-left: 70px;
         font-size: 32px;
