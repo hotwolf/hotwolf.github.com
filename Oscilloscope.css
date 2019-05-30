@@ -16,9 +16,9 @@ body {
 #background1 {
         /* Background gradient for Webkit browsers */
         background: -webkit-gradient(radial, 40% 30%, 0,
-                                                         40% 30%, 400,
-                                                         from(#33a998),
-                                                         to(#1b5246)) fixed 0 0;
+                                     40% 30%, 400,
+                                     from(#33a998),
+                                     to(#1b5246)) fixed 0 0;
         width: 100%;
         min-width: 800px;
         height: 100%;
